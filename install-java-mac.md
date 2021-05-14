@@ -20,3 +20,10 @@ if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 - Use cask to download java versions (not handled by jenv)
   - `brew install --cask java`
   - `brew install --cask adoptopenjdk11` (also adoptopenjdk8, adoptopenjdk13)
+
+
+## IntelliJ
+
+- How to set the Java version within an IntelliJ Gradle Project
+  - `Preferences > Build, Execution, Deployment > Build Tools > Gradle`
+  - `Project Structure > Project Settings > Project`
