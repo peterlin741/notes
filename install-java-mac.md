@@ -18,6 +18,7 @@ if which jenv > /dev/null; then eval "$(jenv init -)"; fi
   - The steps above handle setting the `JAVA_HOME` variable
 
 - Use cask to download java versions (not handled by jenv)
+  - `brew` required xcode command line tools: `xcode-select --install` 
   - `brew install --cask java`
   - `brew install --cask adoptopenjdk11` (also adoptopenjdk8, adoptopenjdk13)
 
