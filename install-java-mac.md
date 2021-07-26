@@ -14,6 +14,7 @@ if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 ```
 
   - To set the version, run `jenv local {java_version}` (for that directory) or `jenv global {java_version}`
+    - `jenv add /Library/Java/JavaVirtualMachines/{JAVA_FOLDER}/Contents/Home/`
   - Use `jenv versions` to view available versions. You can view the Java paths in `~/.jenv/versions`
   - The steps above handle setting the `JAVA_HOME` variable
 
