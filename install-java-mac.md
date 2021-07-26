@@ -19,7 +19,7 @@ if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
 - Use cask to download java versions (not handled by jenv)
   - `brew` required xcode command line tools: `xcode-select --install` 
-  - `brew tap adoptopenjdk/openjdk`
+  - `brew tap adoptopenjdk/openjdk` from [devqa.io](https://devqa.io/brew-install-java/)
   - `brew install --cask java`
   - `brew install --cask adoptopenjdk11` (also adoptopenjdk8, adoptopenjdk13)
 
