@@ -4,5 +4,5 @@ Host *
   IgnoreUnknown AddKeysToAgent,UseKeychain
   AddKeysToAgent yes
   UseKeychain yes
-  IdentityFile ~/.shh/id_rsa
+  IdentityFile ~/.ssh/id_rsa
  ```
